@@ -6,3 +6,9 @@
 
 [build.environment]
   HUGO_VERSION = "0.101.0"
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    cache-control = "max-age=7200"
