@@ -3,13 +3,11 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 draft: true
-author: "Ayou"
-authorLink: "https://ayou10031.cn"
-authorEmail: "arobcher233@163.com"
 description: ""
 keywords: ""
-comment: false
+comment: true
 weight: 0
+#summary: ""
 
 tags:
 - 
@@ -24,14 +22,6 @@ resources:
   src: featured-image.jpg
 - name: featured-image-preview
   src: featured-image-preview.jpg
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-seo:
-  images: []
 
 # 转载开关
 repost:
