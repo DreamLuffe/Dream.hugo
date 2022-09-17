@@ -7,7 +7,7 @@ description: "Ayou's friends"
 keywords: 
   - Hugo
   - friends tempalate
-comment: false
+comment: true
 ---
 
 <!-- When you set data `friends.yml` in `yourProject/data/` directory, it will be automatically loaded here. -->
