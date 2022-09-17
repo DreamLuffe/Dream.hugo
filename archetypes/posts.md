@@ -42,4 +42,4 @@ repost:
 # See details front matter: https://fixit.lruihao.cn/theme-documentation-content/#front-matter
 ---
 
-# 摘要<!--more-->
+# <!--more-->
