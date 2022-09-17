@@ -8,7 +8,6 @@ authorLink: "https://ayou10031.cn"
 authorEmail: "arobcher233@163.com"
 description: ""
 keywords: ""
-license: ""
 comment: false
 weight: 0
 
