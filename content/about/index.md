@@ -27,7 +27,7 @@ resources:
 <a href="https://github.com/Ayouuuu/Ayouuuu.hugo">
 <img src="https://ghchart.rshah.org/Ayouuuu.svg" title="Ayou's Github chart" alt="Ayou's Github chart" style="width:100%;"/>
 </a>
-{{< admonition quote ":(fa-regular fa-clock): 2022-09-18 00:00:00" >}}
+{{< admonition quote ":(fa-regular fa-clock): 2022-09-18 11:45:14" >}}
 {{< typeit group=expect >}}
   弱小和无知，都不是生存的障碍，傲慢才是。  ——《三体》
 {{< /typeit >}}
