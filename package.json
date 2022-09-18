@@ -1,0 +1,22 @@
+{
+  "name": "Ayou's Blog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "algolia": "atomic-algolia",
+    "build": "hugo -v --gc --minify",
+    "server": "hugo server -D --disableFastRender --navigateToChanged",
+    "server:production": "npm run server -- --environment production",
+    "update:theme": "git submodule update --remote --merge && git add themes/FixIt && git commit -m ':arrow_up: Chore: update FixIt theme version'",
+    "qcloudcdn": "node .scripts/qcloudcdn.js $SECRET_ID $SECRET_KEY"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayouuuu/Ayouuuu.hugo.git"
+  },
+  "author": "Ayou",
+  "license": "MIT",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
+  }
+}

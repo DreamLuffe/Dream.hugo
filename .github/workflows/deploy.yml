@@ -1,0 +1,38 @@
+name: Hugo build and deploy
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'assets/**'
+      - 'content/**'
+      - 'data/**'
+      - 'static/**'
+      - 'themes/**'
+      - 'config.toml'
+  workflow_dispatch:
+jobs:
+  Actions-Hugo-Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.SYNC_CONTENT }}
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Install
+        run: npm install
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+      - name: Build
+        run: npm run build
+      - name: Update Algolia index
+        env:
+          ALGOLIA_APP_ID: Y3JG8F795B
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: 'ayou10031'
+          ALGOLIA_INDEX_FILE: './public/index.json'
+        run: npm run algolia
