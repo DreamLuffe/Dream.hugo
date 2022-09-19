@@ -35,14 +35,16 @@ resources:
 {{< /admonition >}}
 
 #### [提交日志](https://github.com/Ayouuuu/Ayouuuu.hugo/commit/master) 
->
+> 
 <script>
 fetch('https://api.github.com/repos/Ayouuuu/Ayouuuu.hugo/commits')
   .then(res => res.json())
   .then(res => {
   	res.forEach(value=>{
 		let p = document.createElement("p")
-		p.innerHTML = "<a href="+value.html_url + ">" +value.sha.slice(0,6) + "</a> " + value.commit.message
+		let time = new Date(value.commit.author.date).toLocaleString().split(" ")
+		p.innerHTML += "<a href="+value.html_url+"><sup>"+time[0]+"</sup>/<sub>"+time[1]+"</sub></a> "
+		p.innerHTML += value.commit.message
 		document.getElementsByTagName("blockquote")[0].appendChild(p)
 	})
   })
