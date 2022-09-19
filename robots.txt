@@ -1,0 +1,5 @@
+# Algolia-Crawler-Verif: CAB853285AE172E8
+
+User-agent: *
+Allow: /
+Sitemap: https://www.algolia.com/sitemap.xml
