@@ -2,25 +2,12 @@
 title: "建站日志"
 subtitle: ""
 date: 2022-09-17T16:20:25Z
-draft: false
-description: ""
+description: "关于我建站的开始"
 keywords: 
 - 建站
 - 日志
 summary: "关于我建站的开始"
 comment: false
-weight: 0
-
-tags:
-- 日志
-categories:
-- 日志
-
-resources:
-- name: featured-image
-  src: featured-image.jpg
-- name: featured-image-preview
-  src: featured-image-preview.jpg
 ---
 
 
