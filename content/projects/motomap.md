@@ -1,7 +1,7 @@
 ---
 title: "摩旅地图"
 date: 2022-10-04T16:57:01Z
-tags: ["摩托","Moto"]
+tags: ["摩托","Vue"]
 categories: ["Projects"]
 type: "posts"
 summary: "一个向往风和自由、诗与远方的二轮驾驶员的旅行记录项目"

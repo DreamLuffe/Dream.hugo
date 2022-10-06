@@ -1,7 +1,6 @@
 ---
 title: "从零开始构建 Hugo 博客"
 date: 2022-09-22T15:35:39Z
-comment: true
 tags:
 - Hugo
 - 总结

@@ -2,18 +2,15 @@
 title: "滑板日记🛹"
 subtitle: ""
 date: 2022-09-25T16:45:54Z
-comment: true
-weight: 10
 description: "关于我滑板的日常记录"
 summary: "记录滑板日常、大事记、有趣的事情"
 hiddenFromHomePage: true
-keywords: 
+keywords:
 - 滑板
 - 日记
-
+- Skate
 tags:
 - 滑板
-- Skate
 categories:
 - 滑板
 ---
