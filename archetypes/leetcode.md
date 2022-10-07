@@ -15,5 +15,5 @@ repost:
     url: ""
 ---
 {{< admonition info >}}
-点击绿色箭头 :(fa-solid fa-share fa-fw): 可进入题目
+点击绿色箭头 <font color="#13ce66">:(fa-solid fa-share fa-fw):</font> 可进入题目
 {{< /admonition >}}
