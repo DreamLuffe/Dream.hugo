@@ -3,6 +3,7 @@ title: "保姆级教程：基于Docker部署雨中冒险2服务器"
 date: 2022-10-17T10:30:15Z
 keywords: ["雨中冒险2","ror2","rainofrisk2"]
 summary: "一条命令解决雨中冒险2开服，Mod安装、中文语言配置"
+featuredImage: "/posts/images/Risk_of_Rain_2_cover.jpg"
 
 tags:
 - Docker
