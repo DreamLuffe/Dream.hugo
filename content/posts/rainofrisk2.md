@@ -3,7 +3,7 @@ title: "保姆级教程：基于Docker部署雨中冒险2服务器"
 date: 2022-10-17T10:30:15Z
 keywords: ["雨中冒险2","ror2","rainofrisk2"]
 summary: "一条命令解决雨中冒险2开服，Mod安装、中文语言配置"
-featuredImage: "/posts/images/Risk_of_Rain_2_cover.jpg"
+featuredImage: "/posts/images/ror2/Risk_of_Rain_2_cover.jpg"
 
 tags:
 - Docker
@@ -81,3 +81,34 @@ Docker 启动加上以下参数
 ```bash
 -e LANG=zh_CNN.UTF-8 -e LANGUAGE=zh_CN.UTF-8:zh_CN -v config.cfg:/root/ror2-dedicated/Risk of Rain 2_Data/Config
 ```
+
+### 服务器标签
+|名称|说明|
+|:---|:---|
+|mod|是否启用 mod|
+|rv|是否开启投票 1 开启 0 关闭|
+|dz|细雨难度|
+|rs|暴雨难度|
+|mn|季风难度|
+
+|神器标签|说明|
+|:---|:---|
+|a=|无神器|
+|0|恶意|
+|1|统率|
+|2|荣耀|
+|3|谜团|
+|4|混沌|
+|5|玻璃|
+|6|纷争|
+|7|进化|
+|8|蜕变|
+|9|牺牲|
+|:|复仇|
+|;|亲族|
+|<|虫群|
+|=|亡者|
+|>|脆弱|
+|?|灵魂|
+
+![server info](/posts/images/ror2/server_info.png)
