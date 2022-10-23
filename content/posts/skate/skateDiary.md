@@ -11,8 +11,9 @@ keywords:
 - Skate
 tags:
 - 滑板
+- 日记
 categories:
-- 滑板
+- 日记
 ---
 
 {{< center-quote >}}
