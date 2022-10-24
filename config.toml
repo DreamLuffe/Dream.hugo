@@ -143,6 +143,12 @@ theme = "FixIt"
       light = "#ffffff"
       dark = "#252627"
 
+  # FixIt 0.2.16 | 新增 返回顶部
+  [params.backToTop]
+    enable = true
+    # 在 b2t 按钮中显示滚动百分比
+    scrollpercent = true
+
   # FixIt 0.2.0 | NEW Search config
   [params.search]
     enable = true
@@ -368,9 +374,12 @@ theme = "FixIt"
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # FixIt 0.2.4 | NEW whether to show the full text content in RSS
-    rssFullText = false
+    rssFullText = true
     # FixIt 0.2.13 | NEW Page style ("narrow", "normal", "wide", ...)
     pageStyle = "normal"
+    autoBookmark = true
+    wordCount = true
+    readingTime = true
     # FixIt 0.2.14 | NEW Gravatar is force-used as the author's avatar
     gravatarForce = true
     # FixIt 0.2.15 | NEW Repost config
@@ -396,6 +405,17 @@ theme = "FixIt"
       warning = 180
       # If the article expires, close the comment or not
       closeComment = true
+  # FixIt 0.2.16 | NEW Reading progress bar
+  [params.readingProgress]
+    enable = true
+    # Available values: ["left", "right"]
+    start = "left"
+    # Available values: ["top", "bottom"]
+    position = "top"
+    reversed = false
+    light = "var(--fi-success)"
+    dark = "var(--fi-success-dark)"
+    height = "2px"
     # FixIt 0.2.16 | CHANGED KaTeX mathematical formulas (https://katex.org)
     [params.page.math]
       enable = true
@@ -733,7 +753,7 @@ theme = "FixIt"
     enable = true
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [params.githubCorner]
-    enable = false
+    enable = true
     permalink = "https://github.com/Ayouuuu/Ayouuuu.hugo"
     title = "View source on GitHub"
     position = "right" # left, right
