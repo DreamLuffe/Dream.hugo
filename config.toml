@@ -201,6 +201,15 @@ theme = "FixIt"
     enable = true
     # FixIt 0.2.0 | NEW Custom content (HTML format is supported)
     custom = """
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?3bb23253f84d4bca430756692bc71694";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
     <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="/upyun.svg" alt="又拍云" width="60" style="vertical-align:bottom">提供CDN加速/云存储服务</a>
     """
     # FixIt 0.2.0 | NEW whether to show Hugo and theme info
@@ -609,7 +618,7 @@ theme = "FixIt"
         mapping = "pathname"
         reactionsEnabled = "1"
         emitMetadata = "0"
-        inputPosition = "bottom" # top, bottom
+        inputPosition = "top" # top, bottom
         lightTheme = "light"
         darkTheme = "dark"
         lazyLoad = true
