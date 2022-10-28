@@ -201,6 +201,8 @@ theme = "FixIt"
     enable = true
     # FixIt 0.2.0 | NEW Custom content (HTML format is supported)
     custom = """
+	<img src="https://visitor-badge.glitch.me/badge?page_id=Ayouuuu-blog" alt="visitor badge"/>
+	<br/>
 	<script>
 	var _hmt = _hmt || [];
 	(function() {
