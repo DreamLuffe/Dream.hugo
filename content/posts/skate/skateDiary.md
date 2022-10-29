@@ -28,6 +28,16 @@ categories:
 
 {{< /center-quote >}}
 
+### 2022/10/28
+
+今天直接把小天和我的板弄断了hhhh,就是我的板有玻纤断的不干脆,等待新板ing......  
+{{<details "<font color=red>断板</font>">}}
+
+{{<bilibili BV1BP411P7FB>}}
+
+{{</details>}}
+
+
 ### 2022/10/23
 
 今天给折木把板(之前放在我这里了)带了过去,与小天、阿灏、折木玩了一把 **Game of S.K.A.T.E**,练了会儿 **FS POP 360**以及 **Switch FS POP**、**Nollie FS Ollie**,然后实在是饿的不行吃了个蛋饼回去了。
