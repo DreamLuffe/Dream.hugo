@@ -17,10 +17,10 @@ comment: true
 
 ```yaml
 # 朋友/站点信息例子
-- nickname: 朋友名字
-  avatar: 朋友头像
-  url: 站点链接
-  description: 对朋友或其站点的说明
+- nickname: Ayouuuuu
+  avatar: https://cravatar.cn/avatar/467dd59b914fd9980108b9f7d143d320
+  url: https://ayou10031.cn
+  description: Try again,do better.
 ```
 
 ## 友情提醒
