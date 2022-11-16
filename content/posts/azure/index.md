@@ -71,9 +71,16 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 如果你要使用 SSR 连接，协议请输入 `chacha20-ietf-poly1305`  
 如果你要使用 Clash 连接，协议请输入 `chacha20-ietf`
 {{</admonition >}}
+
+#### SSR 安装命令
 ```bash
 sudo docker run -d --restart=always -e SS_PORT=7899 -e SS_PASSWORD=114514 -e SS_METHOD=chacha20-ietf-poly1305 -p 7899:7899 -p 7899:7899/udp --name ssr imhang/shadowsocks-docker
 ```
+#### Clash 安装命令
+```bash
+sudo docker run -d --restart=always -e SS_PORT=7899 -e SS_PASSWORD=114514 -e SS_METHOD=chacha20-ietf -p 7899:7899 -p 7899:7899/udp --name ssr imhang/shadowsocks-docker
+```
+
 4. Azure 防火墙设置/端口开放
 进入你的 **虚拟机控制台** 找到 `网络`->`添加入站端口规则`->`目标端口范围` 填 `7899`->`添加`
 5. 安装 BBR 加速
