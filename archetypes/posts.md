@@ -23,6 +23,7 @@ resources:
 - name: featured-image-preview
   src: featured-image-preview.jpg
 
+featuredImage: 
 # 转载开关
 repost:
   enable: false
