@@ -44,7 +44,7 @@ dns:
 proxies:
   - name: "azure"
     type: ssr
-    server: # 服务器IP
+    server: 114.54.141.91# 服务器IP
     port: 7899 # 端口
     cipher: chacha20-ietf # 协议
     password: "" #密码
