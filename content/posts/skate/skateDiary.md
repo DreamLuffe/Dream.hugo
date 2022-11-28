@@ -28,6 +28,13 @@ categories:
 
 {{< /center-quote >}}
 
+### 2022/11/19
+最近几个星期都是很忙，考驾照等等......
+{{<details "<font color=red>更新一下视频</font>">}}
+{{<bilibili BV1eg411v7AR>}}
+{{</details>}}
+
+
 ### 2022/10/28
 
 今天直接把小天和我的板弄断了hhhh,就是我的板有玻纤断的不干脆,等待新板ing......  
