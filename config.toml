@@ -149,6 +149,14 @@ theme = "FixIt"
     # 在 b2t 按钮中显示滚动百分比
     scrollpercent = true
 
+  # FixIt 0.2.17 | NEW TagCloud config for tags page
+  [params.tagcloud]
+    enable = true
+    min = 15 # Minimum font size in px
+    max = 32 # Maximum font size in px
+    peakCount = 10 # Maximum count of posts per tag
+    orderby = "name" # Order of tags, optional values: ['name', 'count']
+
   # FixIt 0.2.0 | NEW Search config
   [params.search]
     enable = true
