@@ -369,6 +369,7 @@ theme = "FixIt"
     QQGroup = "" # https://qun.qq.com/join.html
     Diaspora = ""
     CSDN = "qq_41091006"
+    Mirror = "0x78869559701Dd07Bc50c94cee2aBF41Df134dAD7"
     Email = ""
     RSS = true # FixIt 0.2.0 | NEW
 
