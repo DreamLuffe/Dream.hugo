@@ -3,4 +3,4 @@
 	url = https://github.com/hugo-fixit/FixIt.git
 [submodule "content/private"]
 	path = content/private
-	url = https://github.com/Ayouuuu/blog-private.git
+	url = git@github.com:Ayouuuu/blog-private.git
