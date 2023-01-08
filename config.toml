@@ -96,6 +96,16 @@ theme = "FixIt"
     weight = 6
     [menu.main.params]
       icon = "fa-solid fa-user-tie"
+  [[menu.main]]
+    identifier = ""
+    pre = ""
+    post = ""
+    name = "开往"
+    url = "https://www.travellings.cn/go.html"
+    title = "开往"
+    weight = 6
+    [menu.main.params]
+      icon = "fa-solid fa-subway"
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration Settings
 # -------------------------------------------------------------------------------------
