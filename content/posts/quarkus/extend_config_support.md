@@ -11,8 +11,7 @@ tags:
 categories:
 - Java
 
-featuredImage: /posts/quarkus/images/quarkus-logo.jpeg
-
+featuredImage: https://pic.ayou10031.cn/quarkus/quarkus-logo.jpeg
 ---
 {{< admonition >}}
 本文主要是个人使用 `Quarkus` 框架开发项目所得出的经验,如有错误还请指正
@@ -39,8 +38,8 @@ featuredImage: /posts/quarkus/images/quarkus-logo.jpeg
 
 ## 项目准备
 使用 `IDEA` 创建 `Quarkus` 项目并加载相关 `lib` 依赖  
-![idea-1](/posts/quarkus/images/extend-config/extend-config-idea-1.jpg)  
-![idea-2](/posts/quarkus/images/extend-config/extend-config-idea-2.jpg)  
+![idea-1](https://pic.ayou10031.cn/quarkus/extend-config-idea-1.jpg)  
+![idea-2](https://pic.ayou10031.cn/quarkus/extend-config-idea-2.jpg)  
 
 ### 数据源代码
 现在我们要加载 `properties` 文件在 `src/main/java/` 目录创建 `java` 文件,然后继承 `ApplicationPropertiesConfigSourceLoader` 以及实现接口 `ConfigSourceProvider`,之后在方法 `getConfigSources` 添加需要加载的数据源,具体原理可以自行查看源码了解.如果需要加载 `yaml` 文件,需要 `maven` 引入 [quarkus-config-yaml](https://quarkus.io/guides/config-yaml) 依赖,并且 `Loader `要改成 `ApplicationYamlConfigSourceLoader`然后添加 `yaml`/`yml` 文件加载代码即可!  
@@ -103,4 +102,4 @@ com.ayou.source.LangYamlConfigSource
 ### 测试
 在 `resources` 目录下创建相关文件 `lang.properties` / `lang.yml` 根据相关语法写入一些内容.  
 测试详情可见 [ConfigSourceTest](https://github.com/Ayouuuu/quarkus-example/blob/master/extend-config/src/test/java/com/ayou/CustomSourceTest.java)  
-![index](/posts/quarkus/images/extend-config/config-index.jpg)
+![index](https://pic.ayou10031.cn/quarkus/config-index.jpg)
