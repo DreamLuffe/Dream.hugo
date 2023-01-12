@@ -877,3 +877,6 @@ theme = "FixIt"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
+
+[permalinks]
+  private = "/:sections[1:]/:filename"
