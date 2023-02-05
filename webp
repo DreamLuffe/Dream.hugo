@@ -1,0 +1,28 @@
+#!/bin/bash
+# apt install libwebp
+# apt install webp
+# https://github.com/upyun/upx upyun cli 工具
+
+find . -type f -iname "*.png" | while read file; do
+    if [ ! -f "${file%.*}.webp" ]; then
+        cwebp -q 85 "$file" -o "${file%.*}.webp"
+    fi
+done
+
+find . -type f -iname "*.jpg" | while read file; do
+    if [ ! -f "${file%.*}.webp" ]; then
+        cwebp -q 85 "$file" -o "${file%.*}.webp"
+    fi
+done
+    
+find . -type f -iname "*.jpeg" | while read file; do
+    if [ ! -f "${file%.*}.webp" ]; then
+        cwebp -q 85 "$file" -o "${file%.*}.webp"
+    fi
+done
+    
+find . -type f -iname "*.tif" | while read file; do
+    if [ ! -f "${file%.*}.webp" ]; then
+        cwebp -q 85 "$file" -o "${file%.*}.webp"
+    fi
+done
