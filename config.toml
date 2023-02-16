@@ -120,7 +120,7 @@ theme = "FixIt"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/Ayouuuu/Ayouuuu.hugo"
+  gitRepo = "https://github.com/DreamLuffe/Dream.hugo"
   # FixIt 0.1.1 | NEW which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -200,7 +200,7 @@ theme = "FixIt"
       # URL of the LOGO
       logo = "https://gravatar.loli.net/avatar/467dd59b914fd9980108b9f7d143d320?s=240&d=mp"
       # title name
-      name = "Ayou"
+      name = "DreamLuffe"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -871,7 +871,7 @@ theme = "FixIt"
 
 [author]
   name = "DreamLuffe"
-  email = "arobcher233@163.com"
+  email = "2220485376@qq.com"
   link = "https://github.com/DreamLuffe"
 
 [outputs]
