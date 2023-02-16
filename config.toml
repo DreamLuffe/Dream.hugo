@@ -305,7 +305,7 @@ theme = "FixIt"
       # URL of avatar shown in home page
       #avatarURL = "https://cravatar.cn/avatar/467dd59b914fd9980108b9f7d143d320?s=96&d=mp"
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
-      title = "大 BUG 制造者"
+      title = "海贼王爱好者"
       # subtitle shown in home page
       subtitle = "Bigggggger bug maker"
       # whether to use typeit animation for subtitle
