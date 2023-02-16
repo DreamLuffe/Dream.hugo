@@ -1,5 +1,5 @@
 {
-  "name": "Ayou's Blog",
+  "name": "DreamLuffe's Blog",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ayouuuu/Ayouuuu.hugo.git"
+    "url": "git+https://github.com/DreamLuffe/Dream.hugo.git"
   },
-  "author": "Ayou",
+  "author": "DreamLuffe",
   "license": "MIT",
   "dependencies": {
     "atomic-algolia": "^0.3.19"

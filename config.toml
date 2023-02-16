@@ -6,7 +6,7 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "Ayou's Blog"
+title = "Dream's Blog"
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
@@ -322,7 +322,7 @@ theme = "FixIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "Ayouuuu"
+    GitHub = "DreamLuffe"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -870,9 +870,9 @@ theme = "FixIt"
     endLevel = 6
 
 [author]
-  name = "Ayou"
+  name = "DreamLuffe"
   email = "arobcher233@163.com"
-  link = "https://github.com/Ayouuuu"
+  link = "https://github.com/DreamLuffe"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
