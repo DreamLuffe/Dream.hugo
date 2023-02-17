@@ -1,7 +1,7 @@
 ---
 title: "友情链接"
 subtitle: ""
-type: "friends"
+type: "posts"
 date: 2022-09-16T18:31:15Z
 description: "Ayou's friends"
 keywords: 
